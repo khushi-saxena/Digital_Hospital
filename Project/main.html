@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main</title>
+	<!-- <script type="text/javascript" src="jQ/jquery-3.5.1.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body onload="main()">
+	<div class="container">
+		<b><h1 class="display-4"><i class="fa fa-h-square" aria-hidden="true"></i>               Digital Hospital</h1></b>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3 align="center"><br><em><strong><bold>" Technology Advancing Hospitality "</bold></strong></em></h3>
+		<br>
+		<br>
+		<br>
+		<p class="para">Click on the Register Button below to register yourself   <button id="register" class="btn btn-success btn-md" >Register</button></p>
+		<form class="hidden" id="form1">
+			<h2>Registeration Form</h2>
+			<label for="first">First Name : </label>
+			<input type="text" id="fname" name="first">
+			<br>
+			<label for="last">Last Name : </label>
+			<input type="text" id="lname" name="last">
+			<br>
+			<label for="age">Age : </label>
+			<input type="number" name="age">
+			<br>
+			<label for="gender">Gender : </label>
+			<input type="text" name="gender" placeholder="Female/Male">
+			<br>
+			<label for="email">Email : </label>
+			<input type="email" name="email">
+			<br>
+			<label for="password">Password : </label>
+			<input type="password" name="password">
+			<br>
+			<br>
+			<!-- <button type="submit" class="btn btn-warning" id="regsub">Submit</button> -->
+			<input type="button" value="Submit" id="submit" onclick="patient()">
+			<br>
+		</form>
+
+
+		<p class="para">Click here if you already have an Account  <button id="login" class="btn btn-info btn-md" id="login">Login</button></p>
+
+
+		<form class="hidden" id="form2">
+			<h2>Login Form</h2>
+			<label for="first">First Name : </label>
+			<input type="text" name="first">
+			<br>
+			<label for="last">Last Name : </label>
+			<input type="text" name="last">
+			<br>
+			<label for="email">Email : </label>
+			<input type="email" name="email">
+			<br>
+			<label for="password">Password : </label>
+			<input type="password" name="password">
+			<button disabled="disabled">Forget Password?</button>
+			<br>
+			<br>
+			<button type="submit" class="btn btn-warning">Submit</button>
+			<br>
+		</form>
+		<br>
+		<p class="dc">Registered Doctors can SignIn here ! <button class="btn btn-danger btn-md" id="signin">SignIn</button></p>
+
+		<form class="hidden" id="form3">
+			<h2>SignIn Form For Registered Doctors</h2>
+			<label for="id">Credential Id</label>
+			<input type="text" name="id" id="id">
+			<br>
+			<label for="name">Name : </label>
+			<input type="text" name="name" id="dname">
+			<br>
+			<label for="email">Email : </label>
+			<input type="email" name="email">
+			<br>
+			<label for="password">Password : </label>
+			<input type="password" name="password">
+			<button disabled="disabled">Forget Password?</button>
+			<br>
+			<br><!-- 
+			<button type="submit" class="btn btn-warning">Submit</button> -->
+			<input type="button" value="Submit" id="submit" onclick="doctor()">
+			<br>
+		</form>
+		
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+	
+
+</body>
+</html>
