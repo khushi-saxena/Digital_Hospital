@@ -1,0 +1,61 @@
+body{
+	background-image: url("https://www.hhmglobal.com/wp-content/uploads/articles/lahey_health_future_healthcare.jpg");	
+	background-size: cover;
+	background-position: center;
+}
+
+h1{
+	background: white;
+	width: 500px;
+	text-align: center;
+	margin: 50px auto;
+	padding: 10px;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+h3{
+	background-image: url('https://previews.123rf.com/images/everythingpossible/everythingpossible1301/everythingpossible130100088/17157114-smart-doctor-and-technology-as-medical-concept.jpg');
+	height: 100px;
+	padding: auto;
+	width: 600px;
+	margin: 0 auto;
+	background-position: center;
+	border-radius: 100px;
+    background-repeat: no-repeat;
+}
+
+
+form{
+	margin : 10px 200px;
+	border: 2px solid black;
+	background: grey;
+	border-radius: 20px;
+	text-align: left;
+	padding: 10px 20px;
+}
+form input{
+	margin: 5px;
+}
+form h2{
+	text-decoration: underline;
+}
+.hidden{
+	display: none;
+}
+
+.para{
+	width: 450px;
+	background: pink;
+	text-align: center;
+	margin-left: 350px;
+
+
+}
+
+.dc{
+	width: 350px;
+	background: rgb(200,150,100);
+	text-align: center;
+	margin-left: 350px;
+}
