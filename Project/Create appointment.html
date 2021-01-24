@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Create Appointment</title>
 	<link rel="stylesheet" type="text/css" href="Create appointment.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
+
 <body>
 	<a href="patient.html" class="back btn btn-secondary">Go back to your Portal</a>
-	<form  id="form" onsubmit="sub()">
-			<h2>Create Appointment</h2>
+	<form id="form" class="form" onsubmit="sub()">
+		<h2 style="text-align: center;">Create Appointment</h2>
+		<div class="form-group">
 			<label for="first">First Name : </label>
-			<input type="text" id="fname" name="first">
-			<br><br><br>
+			<input type="text" id="fname" name="first" class="form-control" width="60%">
+		</div>
+		<div class="form-group">
 			<label for="last">Last Name : </label>
-			<input type="text" id="lname" name="last">
-			<br><br><br>
+			<input type="text" id="lname" name="last" class="form-control">
+		</div>
+		<div class="form-group">
 			<label for="age">Age : </label>
-			<input type="number" name="age">
-			<br><br><br>
+			<input type="number" name="age" class="form-control">
+		</div>
+		<div class="form-group">
 			<label for="gender">Gender : </label>
-			<input type="text" name="gender" placeholder="Female/Male">
-			<br><br><br>
+			<input type="text" name="gender" placeholder="Female/Male" class="form-control">
+		</div>
+		<div class="form-group">
 			<label for="email">Email : </label>
-			<input type="email" name="email">
-			<br><br><br>
-	        <label for="Adhar card">Adhar Card No. :</label>
-	        <input type="number" name="Adhar">
-	        <br><br><br>
-	        <label>Health Issues : </label>
-	        <textarea type="text" placeholder="description"></textarea>
-	        <br><br><br>
-	        <input type="checkbox" name="emergency">
-	        <label>  Emergency</label>
-			<br><br><br>
-			<input type="button" value="Submit" id="submit" onclick="sub()">
-			<br>
-		</form>
-		<script type="text/javascript">
-			function sub() {
-				window.location = "patient.html";
-			}
-		</script>
+			<input type="email" name="email" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="Adhar card">Adhar Card No. :</label>
+			<input type="number" name="Adhar" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Health Issues : </label>
+			<textarea type="text" placeholder="description" class="form-control"></textarea>
+		</div>
+		<div class="form-group">
+			<input type="checkbox" name="emergency">
+			<label> Emergency</label>
+		</div>
+
+		<input type="button" value="Submit" class="btn btn-secondary btn-block" id="submit" onclick="sub()">
+		<br>
+	</form>
+	<script type="text/javascript">
+		function sub() {
+			window.location = "patient.html";
+		}
+	</script>
 </body>
+
 </html>
