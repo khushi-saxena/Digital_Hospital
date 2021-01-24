@@ -515,3 +515,15 @@ ul.tabs li.current{
       text-align: center;
       padding: 10px;
     }
+
+
+    .fa{
+      cursor: pointer;
+    }
+    .post-label{
+      cursor: pointer;
+    }
+
+    .area{
+      cursor: pointer;
+    }
