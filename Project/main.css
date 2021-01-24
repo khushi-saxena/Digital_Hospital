@@ -6,24 +6,29 @@ body{
 
 h1{
 	background: white;
-	width: 500px;
+	width: 100%;
 	text-align: center;
 	margin: 50px auto;
-	padding: 10px;
+	padding: 10px 90px 10px 90px;
 	border-radius: 15px;
 	opacity: 0.7;
 }
 
 h3{
 	background-image: url('https://previews.123rf.com/images/everythingpossible/everythingpossible1301/everythingpossible130100088/17157114-smart-doctor-and-technology-as-medical-concept.jpg');
-	height: 100px;
 	padding: auto;
-	width: 600px;
+	width: 60%;
 	margin: 0 auto;
 	background-position: center;
 	border-radius: 100px;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	font-size: 2.75rem;
+    font-weight: 800;
+    z-index: 100;
+	letter-spacing: 1.8px;
+	opacity: 0.75;
 }
+
 
 
 form{
@@ -38,7 +43,7 @@ form input{
 	margin: 5px;
 }
 form h2{
-	text-decoration: underline;
+	text-decoration: none;
 }
 .hidden{
 	display: none;
@@ -58,4 +63,17 @@ form h2{
 	background: rgb(200,150,100);
 	text-align: center;
 	margin-left: 350px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.forms .btn{
+	margin: 10% auto 5%;
 }

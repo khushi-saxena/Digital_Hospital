@@ -8,7 +8,6 @@ A clear and concise description of what you have done to successfully close your
 
 ## Type of change
 
-Please delete options that are not relevant.
 <!--
 Example how to mark a checkbox:-
 - [x] My code follows the code style of this project.
