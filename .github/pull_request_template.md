@@ -1,21 +1,15 @@
-## Related Issuse or bug
+## Related Issuse
   - Info about Issue or bug
 
-Fixes: #[issue number that will be closed through this PR]
+Closes: #[issue number that will be closed through this PR]
 
 #### Describe the changes you've made
 A clear and concise description of what you have done to successfully close your assigned issue. Any new files? or anything you feel to let us know!
 
-
-
-
-
-
 ## Type of change
 
-Please delete options that are not relevant.
 <!--
-Example how to mark a checkbox :-
+Example how to mark a checkbox:-
 - [x] My code follows the code style of this project.
 -->
 - [ ] Bug fix (non-breaking change which fixes an issue)
@@ -33,7 +27,7 @@ A clear and concise description of it.
 
 ## Checklist:
 <!--
-Example how to mark a checkbox :-
+Example how to mark a checkbox:-
 - [x] My code follows the code style of this project.
 -->
 - [ ] My code follows the style guidelines of this project.
@@ -43,7 +37,6 @@ Example how to mark a checkbox :-
 - [ ] My changes generate no new warnings.
 - [ ] I have added tests that prove my fix is effective or that my feature works.
 - [ ] New and existing unit tests pass locally with my changes.
-- [ ] Any dependent changes have been merged and published in downstream modules.
 
 ## Screenshots
 
@@ -51,22 +44,3 @@ Example how to mark a checkbox :-
  :--------------------: |:--------------------:
  **original screenshot**  | <b>updated screenshot </b> |
  
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
