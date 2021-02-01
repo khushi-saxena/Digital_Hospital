@@ -29,7 +29,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 
 
 
-## ⭐HOW TO MAKE A PULL REQUEST:
+## ⭐HOW TO MAKE A PULL REQUEST :
 
 **1.** Fork [this](https://github.com/Khushi0321/Digital_Hospital) repository.
 Click on the <a href="https://github.com/Khushi0321/Digital_Hospital.git"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
