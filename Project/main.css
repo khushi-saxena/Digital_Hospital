@@ -1,5 +1,5 @@
 body{
-	background-image: url("https://www.hhmglobal.com/wp-content/uploads/articles/lahey_health_future_healthcare.jpg");	
+	background-image: url("https://www.med-technews.com/downloads/3134/download/digital%20hospital.jpg?cb=24e56a7a7a96505bf858207dda433399&w=1000");	
 	background-size: cover;
 	background-position: center;
 }
@@ -15,8 +15,7 @@ h1{
 }
 
 h3{
-	background-image: url('https://previews.123rf.com/images/everythingpossible/everythingpossible1301/everythingpossible130100088/17157114-smart-doctor-and-technology-as-medical-concept.jpg');
-	padding: auto;
+	background-image: url();
 	width: 60%;
 	margin: 0 auto;
 	background-position: center;
@@ -26,7 +25,8 @@ h3{
     font-weight: 800;
     z-index: 100;
 	letter-spacing: 1.8px;
-	opacity: 0.75;
+	opacity: 0.9;
+	color: #fff;
 }
 
 
@@ -76,4 +76,8 @@ form h2{
 
 .forms .btn{
 	margin: 10% auto 5%;
+}
+
+.forms  .btn{
+	letter-spacing: 2px;
 }
