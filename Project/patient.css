@@ -1,7 +1,10 @@
 body{
-	background-image:url("https://miro.medium.com/max/699/1*nxllcYW8wuyOAe0Owe83Bw.jpeg");
+	background-image:url("https://drmohans.com/wp-content/uploads/2019/08/Doctor-patient-Relationship.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100vh;
+	object-fit: cover;
+	
 
 }
 
@@ -32,4 +35,18 @@ a{
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer{
+	text-align: center;
+	z-index: 11;
+	letter-spacing: 1px;
+	font-size: 2.3rem;
+	font-weight: 700;
 }
