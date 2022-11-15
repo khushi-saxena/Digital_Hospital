@@ -28,14 +28,4 @@ Before contributing to this project make sure to go through the [code of conduct
 Read our [contributing](https://github.com/Khushi0321/Digital_Hospital/blob/main/CONTRIBUTING.md) file to know how you
 can get started with cloning this project to your system and start working on it.
 
-## Open-source Programs 👾
 
-### `DWoC(Devscript Winter of Code)`
-
-<div style="display: flex; align-items: center; justify-content: space-between;">
-<p>
-Winter of Code is an open-source program envisioned by DevScript that helps understand the paradigm of Open Source contribution. It aims to bring students into the world of open source development and see the power of unified problem solving in real time.</p>
-<img src="https://devscript.tech/woc/img/WOC-logo.png" width="14%"><br>
-</div>
-
-`Contributions to this project are currently welcomed through DWOC`
